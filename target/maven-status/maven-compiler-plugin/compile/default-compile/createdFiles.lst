@@ -1,0 +1,8 @@
+com\capg\bookstore\BookstoreApplication.class
+com\capg\bookstore\controller\BookController.class
+com\capg\bookstore\repository\BookRepository.class
+com\capg\bookstore\entity\User.class
+com\capg\bookstore\controller\config\CorsConfig.class
+com\capg\bookstore\entity\Book.class
+com\capg\bookstore\repository\UserRepository.class
+com\capg\bookstore\service\BookService.class
