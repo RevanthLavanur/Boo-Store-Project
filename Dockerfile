@@ -10,7 +10,7 @@ RUN mvn clean compile package
 
 From openjdk:17.0.1-jdk-slim
 # Copy the WAR file to the Tomcat webapps directory
-COPY --from=Sai /target/bookstore.war bookstore.jar
+COPY --from=Sai /target/bookstore.jar bookstore.jar
 
 # Expose port 8080
 EXPOSE 8080
