@@ -15,4 +15,4 @@ COPY --from=Sai /target/bookstore.jar bookstore.jar
 # Expose port 8080
 EXPOSE 8080
 
-ENTRYPOINT [ "java","bookstore.jar" ]
+ENTRYPOINT [ "java","-jar","bookstore.jar" ]
